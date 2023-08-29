@@ -1,0 +1,114 @@
+[
+      {
+        "match_id": 1001,
+        "home_team": "Arsenal",
+        "away_team": "Manchester United",
+        "date": "2023-09-15T15:00:00Z",
+        "odds": {
+          "home_win": 2.5,
+          "draw": 3.0,
+          "away_win": 2.8
+        }
+      },
+      {
+        "match_id": 1002,
+        "home_team": "Liverpool",
+        "away_team": "Chelsea",
+        "date": "2023-09-16T14:30:00Z",
+        "odds": {
+          "home_win": 2.2,
+          "draw": 3.2,
+          "away_win": 3.5
+        }
+      },
+      {
+        "match_id": 1003,
+        "home_team": "Manchester City",
+        "away_team": "Tottenham Hotspur",
+        "date": "2023-09-16T17:00:00Z",
+        "odds": {
+          "home_win": 1.8,
+          "draw": 3.5,
+          "away_win": 4.0
+        }
+      },
+      {
+        "match_id": 1004,
+        "home_team": "Leicester City",
+        "away_team": "Everton",
+        "date": "2023-09-17T16:15:00Z",
+        "odds": {
+          "home_win": 2.0,
+          "draw": 3.2,
+          "away_win": 3.8
+        }
+      },
+      {
+        "match_id": 1005,
+        "home_team": "West Ham United",
+        "away_team": "Southampton",
+        "date": "2023-09-17T18:30:00Z",
+        "odds": {
+          "home_win": 2.1,
+          "draw": 3.3,
+          "away_win": 3.6
+        }
+      },
+      {
+        "match_id": 1006,
+        "home_team": "Wolverhampton Wanderers",
+        "away_team": "Crystal Palace",
+        "date": "2023-09-18T15:30:00Z",
+        "odds": {
+          "home_win": 2.3,
+          "draw": 3.1,
+          "away_win": 3.4
+        }
+      },
+      {
+        "match_id": 1007,
+        "home_team": "Aston Villa",
+        "away_team": "Newcastle United",
+        "date": "2023-09-18T18:00:00Z",
+        "odds": {
+          "home_win": 1.9,
+          "draw": 3.4,
+          "away_win": 3.7
+        }
+      },
+      {
+        "match_id": 1008,
+        "home_team": "Leeds United",
+        "away_team": "Brighton & Hove Albion",
+        "date": "2023-09-19T17:45:00Z",
+        "odds": {
+          "home_win": 2.4,
+          "draw": 3.0,
+          "away_win": 3.2
+        }
+      },
+      {
+        "match_id": 1009,
+        "home_team": "Burnley",
+        "away_team": "Norwich City",
+        "date": "2023-09-19T20:00:00Z",
+        "odds": {
+          "home_win": 2.0,
+          "draw": 3.2,
+          "away_win": 3.8
+        }
+      },
+      {
+        "match_id": 1010,
+        "home_team": "Watford",
+        "away_team": "Fulham",
+        "date": "2023-09-20T19:30:00Z",
+        "odds": {
+          "home_win": 2.2,
+          "draw": 3.3,
+          "away_win": 3.5
+        }
+      }
+    ]
+
+  
