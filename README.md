@@ -23,7 +23,18 @@ $ npm create lit
 ## Setup
 To run this project, install it locally using npm:
 
+**Backend:**
 ```
-$ cd ../lit-app
+$ cd ../lit-testing-app
+$ node server/server.js
+```
+Now server is running on localhost:8001.
+
+**Frontend:**
+```
+$ cd ../lit-testing-app
+$ npm i
 $ npm run dev
 ```
+
+Go to http://localhost:3000
