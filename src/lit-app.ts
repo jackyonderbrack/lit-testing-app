@@ -3,7 +3,7 @@ import { customElement, property } from "lit/decorators.js";
 
 @customElement("lit-app")
 export class LitApp extends LitElement {
-  @property() API_URL: string = "http://192.168.0.156:8001/matches";
+  @property() API_URL: string = "http://localhost:8001/matches";
   @property() matches: any = [];
 
   constructor() {
@@ -38,21 +38,17 @@ export class LitApp extends LitElement {
       <ul>
         ${this.matches.map(
           (item: any) => html`
-            <li key=${item.match_id} class="signle-match">
+            <li
+              key=${item.match_id}
+              class="signle-match">
               <div class="single-match-info">
                 <p>${item.home_team} - ${item.away_team}</p>
                 <span>${this.getDate(item.date)}</span>
               </div>
               <div class="single-match-buttons">
-                <button class="odd-single-button">
-                  ${this.getDecimal(item.odds.home_win)}
-                </button>
-                <button class="odd-single-button">
-                  ${this.getDecimal(item.odds.draw)}
-                </button>
-                <button class="odd-single-button">
-                  ${this.getDecimal(item.odds.away_win)}
-                </button>
+                <button class="odd-single-button">${this.getDecimal(item.odds.home_win)}</button>
+                <button class="odd-single-button">${this.getDecimal(item.odds.draw)}</button>
+                <button class="odd-single-button">${this.getDecimal(item.odds.away_win)}</button>
               </div>
             </li>
           `
